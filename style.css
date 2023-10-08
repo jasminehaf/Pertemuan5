@@ -3,3 +3,34 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    margin-right: 5px;
+}
+
+p{
+    color: gray;
+    margin: auto;
+    padding: 0%;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

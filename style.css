@@ -26,7 +26,7 @@ a {
 }
 
 p {
-    color: lightgray;
+    color:gray;
     margin: 0 0 16px 0;
     font-size: 30px;
 }
@@ -46,8 +46,8 @@ button {
 }
 
 .button-a{
-    background-color: white;
-    color: black;
+    background-color: turquoise;
+    color: white;
     margin-right: 16px;
     border: 2px solid turquoise;
 }
@@ -78,3 +78,200 @@ nav > a:hover {
 #landing > img {
     width: 50%;
 }
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 128px;
+}
+
+#about h1, p, h5 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#about > div {
+    width: 50%;
+}
+
+#about > img {
+    width: 50%;
+    height: auto;
+}
+
+.about-content {
+    width: 50%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 16px; 
+}
+
+.about-content p {
+    margin-bottom: 32px;
+}
+
+.line {
+    border-bottom: 8px solid turquoise;
+    width: 20%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    color: gray;
+    margin-left: 10px;
+}
+
+.line {
+    border-bottom: 8px solid turquoise;
+    width: 35%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 128px;
+}
+
+#service button {
+    margin-left: auto;
+}
+
+.text {
+    flex: 1;
+    order: 1;
+}
+
+#service h1 {
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: calc(33.33% - 16px); 
+    background-color: turquoise;
+    border: 1px solid turquoise;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.box h2 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -120px;
+}
+
+.contact-info,
+.message-box {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid turquoise;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contact-info h2,
+.message-box h2 {
+    color: black;
+}
+
+.input-field {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="message"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid turquoise;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.button-a {
+    background-color: turquoise;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+}
+
+#iframe {
+    float: right; 
+    margin-left: 20px; 
+    width: 180px; 
+    height: 180px; 
+}
+
+
+.footer {
+    background-color: turquoise;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer p {
+    color: white;
+    font-size: 14px; 
+    text-align: left;
+}
+
